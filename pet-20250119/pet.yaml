@@ -100,7 +100,7 @@ spec:
         app: ui
     spec:
       containers:
-      - image: registry.local-clu01/myui
+      - image: registry.local-clu01/myui:20250119
         imagePullPolicy: Always
         name: myui
 ---
