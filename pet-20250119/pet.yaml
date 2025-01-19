@@ -90,6 +90,7 @@ metadata:
   name: ui
   namespace: pet
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: ui
