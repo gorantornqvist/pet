@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - image: registry.local-clu01/mydb
-        imagePullPolicy: Always
+        imagePullPolicy: Never
         name: mydb
 ---
 apiVersion: v1
@@ -100,7 +100,7 @@ spec:
         app: ui
     spec:
       containers:
-      - image: registry.local-clu01/myui
+      - image: registry.local-clu01/myui:20250422
         imagePullPolicy: Always
         name: myui
 ---
